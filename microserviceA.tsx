@@ -1,7 +1,7 @@
 import axios from "axios";
 import { DefaultAzureCredential } from "@azure/identity";
 
-const MICROSERVICE_B_URL = "http://microservice-b.yourdomain.com/protected";
+const MICROSERVICE_B_URL = "http://microservice-a-bkdfcvehfvdscdaz.southafricanorth-01.azurewebsites.net/protected";
 const AUDIENCE = "api://microservice-b"; // Same as registered in Entra ID
 
 async function callMicroserviceB() {
